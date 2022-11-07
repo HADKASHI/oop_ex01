@@ -1,0 +1,69 @@
+# ninja log v5
+3	49	6895285780345713	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2250	2550	6895249740045475	oop1_ex01.exe	9d3d95e3350e7d6b
+11	1863	6892095082586565	CMakeFiles/oop1_ex01.dir/src/Utilities.cpp.obj	95854b8d6d5c81f2
+1	2249	6895249737632882	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
+1	4395	6892144367840163	CMakeFiles/oop1_ex01.dir/src/Vertex.cpp.obj	5211624f79cdac59
+1	5882	6892095122781780	CMakeFiles/oop1_ex01.dir/src/Board.cpp.obj	e76b3adef7cf24c7
+5	4360	6892122766755344	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+50	634	6895285785036463	build.ninja	d13458de606e263c
+1	45	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+5	2437	6895285810792030	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
+1	47	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+4	2563	6895335319022626	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
+9	5195	6895335345352951	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+2	35	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+5	4859	6895352358381783	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+2	29	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	30	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	29	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	35	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2458	6895355436421999	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+2459	2716	6895355438624489	oop1_ex01.exe	10c6a491357b9ddb
+2	49	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2381	6895357206353324	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+2382	2584	6895357208053165	oop1_ex01.exe	10c6a491357b9ddb
+2	34	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2806	6895358897286503	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+2806	3115	6895358900068969	oop1_ex01.exe	10c6a491357b9ddb
+1	27	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	32	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	39	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	4786	6895365373234765	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+4786	4980	6895365374911845	oop1_ex01.exe	10c6a491357b9ddb
+2	39	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	43	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	27	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	29	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2533	6895371339792079	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+2535	2977	6895371343591637	oop1_ex01.exe	10c6a491357b9ddb
+1	33	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	4931	6895371774154948	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+4932	5176	6895371776234784	oop1_ex01.exe	10c6a491357b9ddb
+1	60	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2861	6895408418185562	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
+2863	3254	6895408421576068	oop1_ex01.exe	10c6a491357b9ddb
+2	85	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	3052	6895411852412067	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+3053	3406	6895411855472470	oop1_ex01.exe	10c6a491357b9ddb
+1	41	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2296	6895412954729188	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+2297	2563	6895412956963300	oop1_ex01.exe	10c6a491357b9ddb
+3	70	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	38	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	44	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	46	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	5840	6895417007946689	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+5842	6098	6895417010155506	oop1_ex01.exe	10c6a491357b9ddb
+4	76	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+6	3589	6895452999613421	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
+14	6269	6895453026391144	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+3	61	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+2	2806	6895453368423448	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
+2807	3213	6895453371746381	oop1_ex01.exe	10c6a491357b9ddb
+3	60	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	2203	6895456342167394	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
+2204	2647	6895456346109102	oop1_ex01.exe	10c6a491357b9ddb
+1	45	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
+1	6077	6895457409249827	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
+6078	6383	6895457411821989	oop1_ex01.exe	10c6a491357b9ddb

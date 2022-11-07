@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-IsoscelesTriangle",
+      "appliesTo": "oop1_ex01/src/IsoscelesTriangle.cpp",
+      "type": "launch"
+    }
+  ]
+}
