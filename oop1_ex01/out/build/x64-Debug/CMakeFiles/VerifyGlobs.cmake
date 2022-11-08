@@ -10,6 +10,7 @@ set(OLD_GLOB
   "Rectangle.h"
   "Utilities.h"
   "Vertex.h"
+  "Window.h"
   "macros.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -25,6 +26,7 @@ set(OLD_GLOB
   "Rectangle.cpp"
   "Utilities.cpp"
   "Vertex.cpp"
+  "Window.cpp"
   "main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

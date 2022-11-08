@@ -1,10 +1,8 @@
 #include "Rectangle.h"
 
-//c-tors
-Rectangle::Rectangle()
-	: m_bottomLeft(20, 10), m_topRight(30, 20)
-{}
-//--------------------------------------------------------------------
+//*************************************************
+//				c-tor functions
+//*************************************************
 Rectangle::Rectangle(const Vertex& bottomLeft, const Vertex& topRight)
 	: m_bottomLeft(bottomLeft.m_col, bottomLeft.m_row),
 	  m_topRight(topRight.m_col, topRight.m_row)
@@ -53,8 +51,8 @@ Rectangle::Rectangle(const Vertex& start, double width, double height)
 //*************************************************
 bool Rectangle::isValidRectangle() const
 {
-	if (m_bottomLeft.m_col < m_topRight.m_col &&
-		m_bottomLeft.m_row < m_topRight.m_row &&
+	if (m_topRight.isToTheRightOf(m_bottomLeft) &&
+		m_topRight.isHigherThan(m_bottomLeft) &&
 		m_bottomLeft.isValid() && m_topRight.isValid())
 		return true;
 
@@ -139,18 +137,12 @@ Rectangle Rectangle::getBoundingRectangle() const
 bool Rectangle:: scale(double factor)
 {
 	Vertex center(getCenter()),
-		   bottomRight(getBottomLeft()),
-		   topLeft(getTopLeft()),
 		   bottomLeft(getBottomLeft()),
 		   topRight(getTopRight());
 
 	bottomLeft = bottomLeft.setFactor(center, factor);
 
 	topRight = topRight.setFactor(center, factor);
-
-	bottomRight = bottomRight.setFactor(center, factor);
-
-	topLeft = topLeft.setFactor(center, factor);
 
 	if (factor <= 0 || !bottomLeft.isValid() || !topRight.isValid())
 		return false;

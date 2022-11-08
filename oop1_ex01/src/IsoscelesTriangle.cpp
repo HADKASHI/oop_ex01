@@ -1,9 +1,6 @@
 #include "IsoscelesTriangle.h"
 #include <cmath>
 
-
-
-
 //-----------------------------------------------------------
 IsoscelesTriangle::IsoscelesTriangle(const Vertex& left, const Vertex& right, double height)
 	:m_left(left),
