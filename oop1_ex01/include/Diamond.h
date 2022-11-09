@@ -1,18 +1,17 @@
 #pragma once
-#include "Rectangle.h"
+#include "IsoscelesTriangle.h"
 
 
-class IsoscelesTriangle
+class Diamond
 {
 public:
 	//c-tors
-	IsoscelesTriangle(const Vertex& left, const Vertex& right, double height);
-	IsoscelesTriangle(const Vertex vertices[3]);
+	Diamond(const Vertex vertices[4]);
+	Diamond(const IsoscelesTriangle & lower);
 
 	//shape functions
 	Vertex getVertex(int index) const;
-	double getBaseLength() const;
-	double getLegLength() const;
+	double getWidth() const;
 	double getHeight() const;
 	Vertex getCenter() const;
 	double getPerimeter() const;
@@ -25,8 +24,9 @@ public:
 
 private:
 	void default();
-	bool isValidTriangle() const;
+	bool isValidDiamond() const;
 	Vertex m_left;
 	Vertex m_right;
-	Vertex m_tip;
+	Vertex m_top;
+	Vertex m_down;
 };

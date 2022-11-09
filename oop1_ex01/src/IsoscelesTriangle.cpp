@@ -8,11 +8,7 @@ IsoscelesTriangle::IsoscelesTriangle(const Vertex& left, const Vertex& right, do
 	 m_tip((m_left.m_col + m_right.m_col) / 2.0, m_left.m_row + height)
 {
 	if (!isValidTriangle())
-	{
-		m_left = Vertex(20, 20);
-		m_right = Vertex(30, 20);
-		m_tip = Vertex(25, 25);
-	}
+		default();
 }
 
 //--------------------------------------------------------------
@@ -22,17 +18,20 @@ IsoscelesTriangle::IsoscelesTriangle(const Vertex vertices[3])
 	 m_tip(vertices[1])
 {
 	if (!isValidTriangle())
-	{
-		m_left = Vertex(20, 20);
-		m_right = Vertex(30, 20);
-		m_tip = Vertex(25, 25);
-	}
+		default();
 }
 
 //=============================================================================
 
 //=============================================================================
+void IsoscelesTriangle::default()
+{
+	m_left = Vertex(20, 20);
+	m_right = Vertex(30, 20);
+	m_tip = Vertex(25, 25);
+}
 
+//----------------------------------------------------------------------------
 bool IsoscelesTriangle::isValidTriangle() const
 {
 	if (abs(m_right.m_row - m_left.m_row) < 0.5 &&

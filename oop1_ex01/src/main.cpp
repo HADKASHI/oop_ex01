@@ -12,8 +12,8 @@
 
 #define RECTANGLE           0
 #define ISOSCELESTRIANGLE   0
-#define DIAMOND             0
-#define WINDOW              1
+#define DIAMOND             1
+#define WINDOW              0
 
 #if RECTANGLE
 #include "Rectangle.h"
