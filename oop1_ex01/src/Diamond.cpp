@@ -36,10 +36,10 @@ Diamond::Diamond(const IsoscelesTriangle& lower)
 void Diamond::draw(Board& board) const
 {
 	board.drawLine(m_left, m_right);
-	board.drawLine(m_right, m_top);
-	board.drawLine(m_top, m_left);
+	board.drawLine(m_left, m_top);
+	board.drawLine(m_top, m_right);
 	board.drawLine(m_right, m_down);
-	board.drawLine(m_left, m_down);
+	board.drawLine(m_down, m_left);
 }
 
 
@@ -156,7 +156,8 @@ bool Diamond::isValidDiamond() const
 		(segmentLength(m_left, m_down) -
 			segmentLength(m_right, m_down)) < 0.5 &&
 		(segmentLength(m_left, m_top) -
-			segmentLength(m_right, m_down)) < 0.5)
+			segmentLength(m_right, m_down)) < 0.5 &&
+		m_top.isHigherThan(m_down))
 		return true;
 
 	return false;
