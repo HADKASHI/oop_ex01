@@ -3,9 +3,10 @@
 cmake_policy(SET CMP0009 NEW)
 
 # MY_HEADER_FILES at include/CMakeLists.txt:2 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false RELATIVE "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/include" "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/include/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES false RELATIVE "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/include" "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/include/*.h")
 set(OLD_GLOB
   "Board.h"
+  "Diamond.h"
   "IsoscelesTriangle.h"
   "Rectangle.h"
   "Utilities.h"
@@ -15,13 +16,14 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # MY_SOURCE_FILES at src/CMakeLists.txt:1 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false RELATIVE "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/src" "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/src/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES false RELATIVE "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/src" "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/src/*.cpp")
 set(OLD_GLOB
   "Board.cpp"
+  "Diamond.cpp"
   "IsoscelesTriangle.cpp"
   "Rectangle.cpp"
   "Utilities.cpp"
@@ -31,5 +33,5 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs")
 endif()

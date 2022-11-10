@@ -1,6 +1,11 @@
 #include "IsoscelesTriangle.h"
 #include <cmath>
 
+
+
+//*************************************************
+//				c-tor functions
+//*************************************************
 //-----------------------------------------------------------
 IsoscelesTriangle::IsoscelesTriangle(const Vertex& left, const Vertex& right, double height)
 	:m_left(left),
@@ -8,7 +13,7 @@ IsoscelesTriangle::IsoscelesTriangle(const Vertex& left, const Vertex& right, do
 	 m_tip((m_left.m_col + m_right.m_col) / 2.0, m_left.m_row + height)
 {
 	if (!isValidTriangle())
-		default();
+		defaultTriangle();
 }
 
 //--------------------------------------------------------------
@@ -18,30 +23,13 @@ IsoscelesTriangle::IsoscelesTriangle(const Vertex vertices[3])
 	 m_tip(vertices[1])
 {
 	if (!isValidTriangle())
-		default();
+		defaultTriangle();
 }
 
-//=============================================================================
 
-//=============================================================================
-void IsoscelesTriangle::default()
-{
-	m_left = Vertex(20, 20);
-	m_right = Vertex(30, 20);
-	m_tip = Vertex(25, 25);
-}
-
-//----------------------------------------------------------------------------
-bool IsoscelesTriangle::isValidTriangle() const
-{
-	if (abs(m_right.m_row - m_left.m_row) < 0.5 &&
-		m_left.isValid() && m_right.isValid() && m_tip.isValid() &&
-		abs(m_tip.m_col - (m_left.m_col + m_right.m_col) / 2.0) < 0.5)
-		return true;
-	
-	return false;
-}
-
+//*************************************************
+//				draw functions
+//*************************************************
 //-----------------------------------------------------
 void IsoscelesTriangle::draw(Board& board) const
 {
@@ -50,6 +38,10 @@ void IsoscelesTriangle::draw(Board& board) const
 	board.drawLine(m_tip, m_left);
 }
 
+
+//*****************************************************
+//					get functions
+//*****************************************************
 //-------------------------------------------------------
 Vertex IsoscelesTriangle::getVertex(int index) const
 {
@@ -135,4 +127,27 @@ double IsoscelesTriangle::getLegLength() const
 {
 	return sqrt(pow((m_left.m_col - m_tip.m_col), 2) + 
 	pow((m_left.m_row - m_tip.m_row), 2));
+}
+
+
+
+//*****************************************************
+//					private functions
+//*****************************************************
+void IsoscelesTriangle::defaultTriangle()
+{
+	m_left = Vertex(20, 20);
+	m_right = Vertex(30, 20);
+	m_tip = Vertex(25, 25);
+}
+
+//----------------------------------------------------------------------------
+bool IsoscelesTriangle::isValidTriangle() const
+{
+	if (abs(m_right.m_row - m_left.m_row) < 0.5 &&
+		m_left.isValid() && m_right.isValid() && m_tip.isValid() &&
+		abs(m_tip.m_col - (m_left.m_col + m_right.m_col) / 2.0) < 0.5)
+		return true;
+
+	return false;
 }

@@ -24,7 +24,7 @@ public:
 	Rectangle getBoundingRectangle() const;
 
 private:
-	void default();
+	void defaultTriangle();
 	bool isValidTriangle() const;
 	Vertex m_left;
 	Vertex m_right;

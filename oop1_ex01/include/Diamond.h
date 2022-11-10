@@ -23,8 +23,9 @@ public:
 	Rectangle getBoundingRectangle() const;
 
 private:
-	void default();
+	void defaultDiamond();
 	bool isValidDiamond() const;
+	double segmentLength(Vertex v1, Vertex v2) const;
 	Vertex m_left;
 	Vertex m_right;
 	Vertex m_top;

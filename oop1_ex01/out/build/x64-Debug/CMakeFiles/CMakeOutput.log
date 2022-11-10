@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.22000 - AMD64
+The system is: Windows - 10.0.19042 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe 
 Build flags: 
@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe 
@@ -45,21 +45,21 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_77db0 && [1/2] Building C object CMakeFiles\cmTC_77db0.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_77db0.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dc809 && [1/2] Building C object CMakeFiles\cmTC_dc809.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_dc809.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8ac9b && [1/2] Building CXX object CMakeFiles\cmTC_8ac9b.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_8ac9b.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_42705 && [1/2] Building CXX object CMakeFiles\cmTC_42705.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_42705.exe
 
 
 

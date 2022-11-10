@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01
+# Install script for directory: C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/include/cmake_install.cmake")
+  include("C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/include/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/src/cmake_install.cmake")
+  include("C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

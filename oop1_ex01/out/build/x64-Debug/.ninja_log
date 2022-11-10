@@ -1,39 +1,18 @@
 # ninja log v5
-8	63	6896488881429498	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-50	634	6896488885774053	build.ninja	d13458de606e263c
-11	1863	6892095082586565	CMakeFiles/oop1_ex01.dir/src/Utilities.cpp.obj	95854b8d6d5c81f2
-6078	6383	6895457411821989	oop1_ex01.exe	10c6a491357b9ddb
-1	2203	6895456342167394	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
-1	4395	6892144367840163	CMakeFiles/oop1_ex01.dir/src/Vertex.cpp.obj	5211624f79cdac59
-1	5882	6892095122781780	CMakeFiles/oop1_ex01.dir/src/Board.cpp.obj	e76b3adef7cf24c7
-1	6077	6895457409249827	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
-2	2806	6895453368423448	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
-64	615	6896488885774053	build.ninja	d13458de606e263c
-1	38	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-4	2613	6896488913548389	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
-1	2712	6896488914515903	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	524435122a040eb4
-1	26	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	38	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	29	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-2	29	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	2280	6896501977534459	CMakeFiles/oop1_ex01.dir/src/Window.cpp.obj	e85e37242a4a2cfd
-2	30	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	32	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	2168	6896504503932598	CMakeFiles/oop1_ex01.dir/src/Window.cpp.obj	e85e37242a4a2cfd
-4	4420	6896504526450410	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
-4421	4743	6896504528932480	oop1_ex01.exe	a4b093614ca801f3
-2	50	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-2	34	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	2399	6896510658450593	CMakeFiles/oop1_ex01.dir/src/Window.cpp.obj	e85e37242a4a2cfd
-4	4782	6896510682279915	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
-4782	5033	6896510684434059	oop1_ex01.exe	a4b093614ca801f3
-1	40	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	1941	6896513340193028	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	8587c6ecf52acadf
-1941	2167	6896513342075194	oop1_ex01.exe	a4b093614ca801f3
-1	27	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	4444	6896513816885877	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	98668a9fd5a19ab
-4445	4650	6896513818624254	oop1_ex01.exe	a4b093614ca801f3
-1	44	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-2	48	0	C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	d85b383dd88928cb
-1	2229	6896517046802655	CMakeFiles/oop1_ex01.dir/src/Window.cpp.obj	e85e37242a4a2cfd
-2231	2605	6896517050043650	oop1_ex01.exe	a4b093614ca801f3
+3	37	0	C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	53bcab38037be806
+18	2083	6897661408223721	CMakeFiles/oop1_ex01.dir/src/Utilities.cpp.obj	35c30f17a590fe62
+8	2707	6897661414489511	CMakeFiles/oop1_ex01.dir/src/Rectangle.cpp.obj	98fa7fed49ea7184
+30	2753	6897661414948741	CMakeFiles/oop1_ex01.dir/src/Window.cpp.obj	422e9d4125dd16cc
+22	4701	6897661434440139	CMakeFiles/oop1_ex01.dir/src/Vertex.cpp.obj	6f7c211a31da8fb1
+1	5246	6897661439892411	CMakeFiles/oop1_ex01.dir/src/Board.cpp.obj	566270b70aa3b8f5
+3	29	0	C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	53bcab38037be806
+0	2633	6897671422563491	CMakeFiles/oop1_ex01.dir/src/Diamond.cpp.obj	fe68e4ae620c8e6f
+3	2736	6897671423617214	CMakeFiles/oop1_ex01.dir/src/IsoscelesTriangle.cpp.obj	7b28c7f68ac8a481
+8	4527	6897671441497067	CMakeFiles/oop1_ex01.dir/src/main.cpp.obj	5ec7d78e3126e7de
+4527	4896	6897671445093311	oop1_ex01.exe	7fc10bb81603ca0
+3	29	0	C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	53bcab38037be806
+2	34	0	C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	53bcab38037be806
+1	1729	6897674800752488	CMakeFiles/oop1_ex01.dir/src/Diamond.cpp.obj	fe68e4ae620c8e6f
+2	28	0	C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	53bcab38037be806
+1	339	6897675420123256	oop1_ex01.exe	7fc10bb81603ca0
+2	32	0	C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug/CMakeFiles/cmake.verify_globs	53bcab38037be806

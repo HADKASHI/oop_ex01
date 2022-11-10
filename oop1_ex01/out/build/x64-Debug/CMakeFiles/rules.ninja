@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\hadar\OneDrive - Hadassah Academic College\Desktop\oop1_ex01-basefiles\oop1_ex01" -B"C:\Users\hadar\OneDrive - Hadassah Academic College\Desktop\oop1_ex01-basefiles\oop1_ex01\out\build\x64-Debug"
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\kashi\Documents\oop1\oop_ex01\oop1_ex01 -BC:\Users\kashi\Documents\oop1\oop_ex01\oop1_ex01\out\build\x64-Debug
   description = Re-running CMake...
   generator = 1
 
@@ -56,7 +56,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P "C:\Users\hadar\OneDrive - Hadassah Academic College\Desktop\oop1_ex01-basefiles\oop1_ex01\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake"
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:\Users\kashi\Documents\oop1\oop_ex01\oop1_ex01\out\build\x64-Debug\CMakeFiles\VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
@@ -65,7 +65,7 @@ rule VERIFY_GLOBS
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\PROGRA~1\MICROS~4\2022\COMMUN~1\Common7\IDE\COMMON~1\MICROS~1\CMake\Ninja\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja.exe" $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -73,6 +73,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\PROGRA~1\MICROS~4\2022\COMMUN~1\Common7\IDE\COMMON~1\MICROS~1\CMake\Ninja\ninja.exe -t targets
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja.exe" -t targets
   description = All primary targets available:
 

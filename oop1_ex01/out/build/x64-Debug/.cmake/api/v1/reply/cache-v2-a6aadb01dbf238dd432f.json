@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug"
+			"value" : "c:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01"
+			"value" : "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/install/x64-Debug"
+			"value" : "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01/out/build/x64-Debug"
+			"value" : "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01/out/build/x64-Debug"
 		},
 		{
 			"name" : "oop1_ex01_IS_TOP_LEVEL",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/hadar/OneDrive - Hadassah Academic College/Desktop/oop1_ex01-basefiles/oop1_ex01"
+			"value" : "C:/Users/kashi/Documents/oop1/oop_ex01/oop1_ex01"
 		}
 	],
 	"kind" : "cache",

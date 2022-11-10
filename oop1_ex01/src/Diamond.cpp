@@ -2,6 +2,9 @@
 
 
 
+//*************************************************
+//				c-tor functions
+//*************************************************
 
 Diamond::Diamond(const Vertex vertices[4])
 	:m_left(vertices[0]),
@@ -10,7 +13,7 @@ Diamond::Diamond(const Vertex vertices[4])
 	m_down(vertices[3])
 {
 	if (!isValidDiamond())
-		default();
+		defaultDiamond();
 
 }
 
@@ -23,14 +26,13 @@ Diamond::Diamond(const IsoscelesTriangle& lower)
 		lower.getVertex(0).m_row * 2.0 - lower.getVertex(1).m_row)
 {
 	if (!isValidDiamond())
-		default();
+		defaultDiamond();
 }
 
 
-
-
-
-
+//*************************************************
+//				draw functions
+//*************************************************
 void Diamond::draw(Board& board) const
 {
 	board.drawLine(m_left, m_right);
@@ -40,6 +42,10 @@ void Diamond::draw(Board& board) const
 	board.drawLine(m_left, m_down);
 }
 
+
+//*****************************************************
+//					get functions
+//*****************************************************
 //-----------------------------------------------------
 Rectangle Diamond::getBoundingRectangle() const
 {
@@ -125,13 +131,17 @@ double Diamond::getHeight() const
 	return m_top.m_row - m_down.m_row;
 }
 
+
+//*****************************************************
+//					private functions
+//*****************************************************
 //---------------------------------------------------------------------------
-void Diamond::default()
+void Diamond::defaultDiamond()
 {
-		m_left = Vertex(25, 15);
-		m_top = Vertex(30, 20);
-		m_right = Vertex(25, 25);
-		m_down = Vertex(20, 20);
+		m_left = Vertex(20, 20);
+		m_top = Vertex(25, 25);
+		m_right = Vertex(30, 20);
+		m_down = Vertex(25, 15);
 }
 
 //--------------------------------------------------------------------------
@@ -141,15 +151,20 @@ bool Diamond::isValidDiamond() const
 		m_top.isValid() && m_down.isValid() &&
 		(m_top.m_col - m_down.m_col) < 0.5 &&
 		(m_left.m_row - m_right.m_row) < 0.5 &&
-		(sqrt(pow((m_left.m_col - m_top.m_col), 2) +
-			pow((m_left.m_row - m_top.m_row), 2)) ==
-			sqrt(pow((m_right.m_col - m_top.m_col), 2) +
-				pow((m_right.m_row - m_top.m_row), 2)) ==
-			sqrt(pow((m_left.m_col - m_down.m_col), 2) +
-				pow((m_left.m_row - m_down.m_row), 2)) ==
-			sqrt(pow((m_right.m_col - m_down.m_col), 2) +
-				pow((m_right.m_row - m_down.m_row), 2))))
+		(segmentLength(m_left, m_top) -
+			segmentLength(m_right, m_top)) < 0.5 &&
+		(segmentLength(m_left, m_down) -
+			segmentLength(m_right, m_down)) < 0.5 &&
+		(segmentLength(m_left, m_top) -
+			segmentLength(m_right, m_down)) < 0.5)
 		return true;
 
 	return false;
+}
+
+//-------------------------------------------------------------------------
+double Diamond::segmentLength(Vertex v1, Vertex v2) const
+{
+	return sqrt(pow((v1.m_col - v2.m_col), 2) +
+		pow((v1.m_row - v2.m_row), 2));
 }
